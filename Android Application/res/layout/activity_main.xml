@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CatInfo">
+
+    <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:id="@+id/socialNeeds"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintTop_toBottomOf="@+id/healthIssue" app:layout_constraintStart_toEndOf="@+id/textView16"
+            android:layout_marginStart="24dp" android:layout_marginTop="8dp"/>
+    <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:id="@+id/healthIssue"
+            tools:ignore="MissingConstraints" android:layout_marginTop="4dp"
+            app:layout_constraintTop_toBottomOf="@+id/dogFriendly" app:layout_constraintStart_toEndOf="@+id/textView15"
+            android:layout_marginStart="56dp"/>
+    <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:id="@+id/dogFriendly"
+            tools:ignore="MissingConstraints" android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/childFriendly"
+            app:layout_constraintStart_toEndOf="@+id/textView13" android:layout_marginStart="60dp"/>
+    <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:id="@+id/childFriendly"
+            tools:ignore="MissingConstraints" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/adaptability" app:layout_constraintStart_toEndOf="@+id/textView12"
+            android:layout_marginStart="32dp"/>
+    <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:id="@+id/adaptability"
+            tools:ignore="MissingConstraints" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/lifeSpan" app:layout_constraintStart_toEndOf="@+id/textView11"
+            android:layout_marginStart="56dp"/>
+    <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:id="@+id/lifeSpan"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintTop_toBottomOf="@+id/cfa" app:layout_constraintStart_toEndOf="@+id/textView10"
+            android:layout_marginStart="120dp" android:layout_marginTop="8dp"/>
+    <TextView
+            android:text=""
+            android:layout_width="199dp"
+            android:layout_height="32dp"
+            android:id="@+id/cfa"
+            android:singleLine="false"
+            tools:ignore="MissingConstraints" android:layout_marginTop="4dp"
+            app:layout_constraintTop_toBottomOf="@+id/temperament" app:layout_constraintStart_toEndOf="@+id/textView9"
+            android:layout_marginStart="16dp"/>
+    <TextView
+            android:text=""
+            android:layout_width="202dp"
+            android:layout_height="39dp"
+            android:singleLine="false"
+            android:id="@+id/temperament"
+            tools:ignore="MissingConstraints" android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/description" app:layout_constraintStart_toEndOf="@+id/textView8"
+            android:layout_marginStart="88dp"/>
+    <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/description"
+            tools:ignore="MissingConstraints" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/origin" app:layout_constraintStart_toEndOf="@+id/textView7"
+            android:layout_marginStart="104dp"/>
+    <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/origin"
+            tools:ignore="MissingConstraints" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/breed" app:layout_constraintStart_toEndOf="@+id/textView6"
+            android:layout_marginStart="140dp"/>
+    <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/breed"
+            tools:ignore="MissingConstraints" app:layout_constraintStart_toEndOf="@+id/textView5"
+            android:layout_marginStart="100dp" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/catPicture"/>
+    <TextView
+            android:text="Social needs level (0 - 5)"
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:id="@+id/textView16"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="12dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"/>
+    <TextView
+            android:text="Healthy level (0 - 5)"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:id="@+id/textView15"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="12dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"/>
+    <TextView
+            android:text="Dog friendly (0 - 5)"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:id="@+id/textView13"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView12"/>
+    <TextView
+            android:text="Children friendly (0 - 5)"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:id="@+id/textView12"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"/>
+    <TextView
+            android:text="Adaptability (0 - 5)"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:id="@+id/textView11"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="20dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView10"/>
+    <TextView
+            android:text="Life span"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:id="@+id/textView10"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="20dp" android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"/>
+    <TextView
+            android:text="Cat Fanciers' Association"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"/>
+    <TextView
+            android:text="Temperament"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:id="@+id/textView8"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"/>
+    <TextView
+            android:text="Origin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"/>
+    <TextView
+            android:text="Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter a cat breed type to search:"
+            android:id="@+id/textView2"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="16dp" android:layout_marginStart="24dp"/>
+    <EditText
+            android:layout_width="235dp"
+            android:layout_height="52dp"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/search"
+            app:layout_constraintStart_toStartOf="@+id/textView2" android:layout_marginTop="11dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" android:layout_marginBottom="13dp"
+            app:layout_constraintBottom_toTopOf="@+id/submit" app:layout_constraintVertical_bias="0.0"/>
+    <Button
+            android:text="Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/submit"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="@+id/catPicture"
+            android:layout_marginTop="108dp" android:layout_marginStart="8dp"/>
+    <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/catPicture"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="invisible"
+            app:layout_constraintTop_toBottomOf="@+id/submit" android:layout_marginBottom="1dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView9" app:layout_constraintBottom_toTopOf="@+id/resultView"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="24dp" android:layout_marginEnd="23dp"/>
+    <TextView
+            android:text="Breed Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/catPicture"/>
+    <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resultView"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="261dp" android:layout_marginStart="24dp"/>
+    <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                                android:id="@+id/guideline" app:layout_constraintGuide_begin="20dp"
+                                                android:orientation="vertical"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
